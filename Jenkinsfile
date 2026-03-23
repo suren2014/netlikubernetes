@@ -12,7 +12,7 @@ pipeline {
 
     stage('CODE') {
       steps {
-        git url: '<REPO_URL>', branch: 'main'
+        git url: 'https://github.com/suren2014/netlikubernetes.git', branch: 'main'
       }
     }
 
